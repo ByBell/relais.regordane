@@ -1,0 +1,80 @@
+{
+  "name": "ByBell/relais.regordane",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "Refonte Relais-regordane",
+  "branch": "gh-pages",
+  "style": {
+    "name": "Williamsburg",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/LightBannerHeader",
+      "article": "article/ReaderArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Montserrat, sans-serif",
+    "heading": {
+      "fontWeight": 600,
+      "letterSpacing": "0.1em"
+    },
+    "colors": {
+      "text": "#346",
+      "background": "#fff",
+      "primary": "#0099e0",
+      "secondary": "#ab61ff",
+      "highlight": "#f7b",
+      "muted": "#fffab3",
+      "border": "#ccd"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/ByBell/relais.regordane",
+          "text": "GitHub"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "relais.regordane",
+      "subhead": "gites cévennes, Location de gîtes. location vacances. Les Cévennes. gîte rural",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "relais.regordane: gites cévennes, Location de gîtes. location vacances. Les Cévennes. gîte rural",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "ByBell",
+          "repo": "relais.regordane"
+        }
+      ]
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/ByBell/relais.regordane",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/ByBell",
+          "text": "ByBell"
+        }
+      ]
+    }
+  ]
+}
